@@ -9,6 +9,7 @@ jobs:
         environment: dev
         steps:
         - uses: actions/checkout@v4
+        - uses: actions/setup-node@v4
         - name: Salesforce Login
           uses: ./custom-github-action/salesforce-login
           with: 
