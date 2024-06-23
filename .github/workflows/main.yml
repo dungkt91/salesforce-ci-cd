@@ -8,6 +8,5 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Check directory
+            shell: cmd
             run: ls -l
-            shell: bash
-            - uses: ./custom-github-action/action1/
