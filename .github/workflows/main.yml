@@ -7,5 +7,7 @@ jobs:
     test_job:
         runs-on: ubuntu-latest
         steps:
-            - run: ls -l
+            - name: Check directory
+            run: ls -l
+            shell: bash
             - uses: ./custom-github-action/action1/
