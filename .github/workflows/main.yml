@@ -12,7 +12,6 @@ jobs:
         - uses: actions/setup-node@v4
           with: 
             cache: 'npm'
-        - run: npm i
         - name: Salesforce Login
           uses: ./custom-github-action/salesforce-login
           with: 
