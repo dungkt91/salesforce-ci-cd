@@ -7,6 +7,6 @@ jobs:
     test_job:
         runs-on: ubuntu-latest
         steps:
-            - name: Check directory
-            shell: cmd
-            run: ls -l
+        - name: test
+          shell: bash 
+          run: ls -li
