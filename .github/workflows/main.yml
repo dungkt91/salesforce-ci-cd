@@ -7,6 +7,6 @@ jobs:
     test_job:
         runs-on: ubuntu-latest
         steps:
-        - name: test
-          shell: bash 
-          run: ls -l
+        - uses: actions/checkout@v4
+        - run: ls
+            
