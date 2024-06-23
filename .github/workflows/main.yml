@@ -9,4 +9,4 @@ jobs:
         steps:
         - name: test
           shell: bash 
-          run: ls -li
+          run: ls -l
