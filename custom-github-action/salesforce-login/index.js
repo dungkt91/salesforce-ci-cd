@@ -5,6 +5,9 @@ const url = core.getInput('url');
 const username = core.getInput('username');
 const password = core.getInput('password');
 
-console.log("url: ", url);
-console.log("username: ", username);
-console.log("password: ", password);
+async function run(){
+    let response = await fetch("http://www.google.com");
+    console.log("body: ", response.body());
+}
+
+await run();
