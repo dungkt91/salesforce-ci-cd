@@ -10,8 +10,7 @@ jobs:
         steps:
         - uses: actions/checkout@v4
         - uses: actions/setup-node@v4
-          with: 
-            cache: 'npm'
+        - run: npm ci
         - name: Salesforce Login
           uses: ./custom-github-action/salesforce-login
           with: 
