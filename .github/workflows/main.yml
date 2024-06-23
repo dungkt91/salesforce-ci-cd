@@ -7,5 +7,5 @@ jobs:
     test_job:
         runs-on: ubuntu-latest
         steps:
-            - run: dir
+            - run: ls -l
             - uses: ./custom-github-action/action1/
