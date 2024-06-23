@@ -8,4 +8,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - run: dir
-            - uses: custom-github-action/action1/
+            - uses: ./custom-github-action/action1/
