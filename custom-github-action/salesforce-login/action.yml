@@ -1,0 +1,22 @@
+name: 'Salesforce login'
+description: 'Salesforce login'
+inputs:
+  url:
+    description: "url"
+    required: true
+  username: 
+    description: "username"
+    required: true
+  password:
+    description: "password"
+    required: true
+
+outputs:
+  accessToken: 
+    description: "Access Token"
+  refreshToken: 
+    description: "Refresh Token"
+    
+runs:
+  using: 'node20'
+  main: 'index.js'
