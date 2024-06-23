@@ -10,4 +10,5 @@ async function run(){
     console.log("body: ", await response.text());
 }
 
+console.log("run");
 run();
