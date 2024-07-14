@@ -11,7 +11,6 @@ const ORG_TYPE_URL = {
     "sandbox": `https://test.salesforce.com/services/Soap/u/${apiVersion}`
 }
 
-
 async function getAccessToken(){
     let url = ORG_TYPE_URL[orgType];
     if(!url){
