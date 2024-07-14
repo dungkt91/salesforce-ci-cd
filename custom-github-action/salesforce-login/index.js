@@ -32,7 +32,7 @@ async function getAccessToken(){
     `
     const response = await fetch(url, {
         method: "POST",
-        body: "",
+        body: requestBody,
         headers: {
             "Content-Type": "text/xml",
             "SOAPAction": "login",
