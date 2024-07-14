@@ -14,7 +14,8 @@ jobs:
         - name: Salesforce Login
           uses: ./custom-github-action/salesforce-login
           with: 
-            url: ${{secrets.SALESFORCE_URL}}
+            orgType: ${{secrets.SALESFORCE_ORG_TYPE}}
+            apiVersion: ${{secrets.SALESFORCE_API_VERSION}}
             username: ${{secrets.SALESFORCE_USERNAME}}
             password: ${{secrets.SALESFORCE_PASSWORD}}
            

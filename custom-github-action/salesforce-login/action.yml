@@ -2,7 +2,10 @@ name: 'Salesforce login'
 description: 'Salesforce login'
 inputs:
   url:
-    description: "url"
+    description: "orgType"
+    required: true
+  apiVersion:
+    description: "apiVersion"
     required: true
   username: 
     description: "username"
