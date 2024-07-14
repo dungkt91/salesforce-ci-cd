@@ -1,7 +1,7 @@
 name: 'Salesforce login'
 description: 'Salesforce login'
 inputs:
-  url:
+  orgType:
     description: "orgType"
     required: true
   apiVersion:
