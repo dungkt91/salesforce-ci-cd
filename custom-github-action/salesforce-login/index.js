@@ -1,7 +1,7 @@
 const core = require('@actions/core');
 const github = require('@actions/github');
 
-const orgType = core.getInput('org_type');
+const orgType = core.getInput('orgType');
 const username = core.getInput('username');
 const password = core.getInput('password');
 const apiVersion = core.getInput('apiVersion');
